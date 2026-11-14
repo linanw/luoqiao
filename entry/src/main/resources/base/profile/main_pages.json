@@ -1,0 +1,1 @@
+{"src": ["pages/TailnetPage", "pages/Index", "pages/DomainListsPage", "pages/NetworksPage", "pages/TunnelEditorPage", "pages/DomainLibraryPage", "pages/CustomRulesPage", "pages/WireGuardEditorPage", "pages/PureVpnPage", "pages/SubnetRoutesPage", "pages/RouteCheckerPage", "pages/AddressGroupsPage", "pages/VpnDiagnosticsPage"]}

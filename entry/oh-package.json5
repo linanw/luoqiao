@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "WireGuard user interface and VPN extension",
+  "dependencies": {
+    "libwireguard.so": "file:./src/main/cpp/types/libwireguard",
+    "libtailnet.so": "file:./src/main/cpp/types/libtailnet"
+  }
+}

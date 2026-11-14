@@ -1,0 +1,66 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:module_desc",
+        "label": "$string:app_name",
+        "icon": "$media:app_icon",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "WireGuardVpnAbility",
+        "srcEntry": "./ets/vpn/WireGuardVpnAbility.ets",
+        "type": "vpn",
+        "description": "$string:module_desc",
+        "exported": false
+      },
+      {
+        "name": "TailnetVpnAbility",
+        "srcEntry": "./ets/vpn/TailnetVpnAbility.ets",
+        "type": "vpn",
+        "exported": false
+      },
+      {
+        "name": "MultiNetworkVpnAbility",
+        "srcEntry": "./ets/vpn/MultiNetworkVpnAbility.ets",
+        "type": "vpn",
+        "exported": false
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "modelVersion": "6.1.0",
+  "description": "络桥：HarmonyOS 多连接 VPN 与分流客户端",
+  "dependencies": {},
+  "devDependencies": {}
+}

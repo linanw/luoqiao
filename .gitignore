@@ -1,0 +1,34 @@
+.DS_Store
+.hvigor/
+.idea/
+.preview/
+.cxx/
+.toolchain/
+.cache/
+.sign/
+build/
+oh_modules/
+local.properties
+# DevEco writes machine-specific automatic-signing credentials here.
+# Copy the tracked build-profile.example.json5 on a fresh clone.
+/build-profile.json5
+.env
+.env.*
+!.env.example
+*.hap
+*.app
+*.p12
+*.pfx
+*.jks
+*.cer
+*.csr
+*.p7b
+*.keystore
+*.pem
+*.key
+# Local device evidence, unrelated projects, and generated documents.
+/artifacts/
+/outputs/
+/icloud-drive/
+*.log
+__pycache__/
